@@ -2,8 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-
-{% seo %}
+    {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,12 +24,15 @@
 
     <main id="content" class="main-content" role="main">
       {{ content }}
-
       <footer class="site-footer">
         <div class="site-footer-owner">И немножко юмора..:</div>
-        <div class="site-footer-credits">Не тяните до последнего, чтобы сделать задачу через жопу. Делайте через жопу сразу - будет время пофиксить!</div>
-        <div class="site-footer-credits">- Кстати, я сегодня спас продукт от говнокода. - Да ладно, как? - Самоконтроль, парни, самоконтроль!</div>
-        <div class="site-footer-credits">Если код из говна и палок, смешанных в правильной пропорции, достаточно проработает в Проде - то образует монолитную архитектуру.</div>
+        <div class="site-footer-credits">
+          <ul>
+            <li>Не тяните до последнего, чтобы сделать задачу через жопу. Делайте через жопу сразу - будет время пофиксить!</li>
+            <li>- Кстати, я сегодня спас продукт от говнокода. - Да ладно, как? - Самоконтроль, парни, самоконтроль!</li>
+            <li>Если код из говна и палок, смешанных в правильной пропорции, достаточно проработает в Проде - то образует монолитную архитектуру.</li>
+          </ul>
+        </div>
       </footer>
     </main>
   </body>
